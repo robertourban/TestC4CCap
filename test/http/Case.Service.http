@@ -1,0 +1,347 @@
+@server = http://localhost:4004
+
+
+### sap_c4c_api_v1_case_service_cases_post
+# @name sap_c4c_api_v1_case_service_cases_post_POST
+POST {{server}}/odata/v4/sap_c4c_api_v1_case_service_cases_post
+Content-Type: application/json
+
+{
+  "x_sap_crm_token": "x_sap_crm_token-25913305",
+  "body": {
+    "subject": "subject-25913305",
+    "priority": "priority-25913305",
+    "origin": "origin-25913305",
+    "caseType": "caseType-25913305",
+    "status": "status-25913305",
+    "escalationStatus": "escalationStatus-25913305",
+    "registeredProducts": [
+      {
+        "id": "25913305-ea70-4374-b15e-764594a05235",
+        "displayId": "displayId-25913305",
+        "serialId": "serialId-25913305"
+      }
+    ],
+    "functionalLocations": [
+      {
+        "id": "25913305-7864-407f-9c26-dd6c339f5ffe",
+        "displayId": "displayId-25913305"
+      }
+    ],
+    "productInstallPoints": [
+      {
+        "id": "25913305-8e3d-48e0-ba40-e4a9ca895b64",
+        "displayId": "displayId-25913305"
+      }
+    ],
+    "installedBases": [
+      {
+        "id": "25913305-ff6f-45ed-be84-7b203558ecdc",
+        "displayId": "displayId-25913305"
+      }
+    ],
+    "account": {
+      "id": "25913305-9a63-451c-b801-a9b6c33c5317",
+      "displayId": "displayId-25913305",
+      "name": "name-25913305",
+      "country": "country-25913305",
+      "state": "state-25913305",
+      "streetPostalCode": "streetPostalCode-25913305"
+    },
+    "contact": {
+      "id": "25913305-bc3e-4703-b999-a03cd736e8a2",
+      "displayId": "displayId-25913305",
+      "name": "name-25913305",
+      "emailId": "emailId-25913305",
+      "phoneNumber": "phoneNumber-25913305"
+    },
+    "individualCustomer": {
+      "id": "25913305-e10b-449a-905f-6ac1b2091f46",
+      "displayId": "displayId-25913305",
+      "name": "name-25913305",
+      "emailId": "emailId-25913305"
+    },
+    "processor": {
+      "id": "25913305-5964-4cb9-9e7f-6a1b87a932fe",
+      "displayId": "displayId-25913305",
+      "name": "name-25913305",
+      "emailId": "emailId-25913305"
+    },
+    "approvers": [
+      {
+        "id": "25913305-61dc-47f5-a49e-81a17a63949b",
+        "displayId": "displayId-25913305",
+        "name": "name-25913305",
+        "emailId": "emailId-25913305"
+      }
+    ],
+    "serviceTeam": {
+      "id": "25913305-9109-4fcd-9e2e-36b1520d9f75",
+      "displayId": "displayId-25913305",
+      "name": "name-25913305"
+    },
+    "description": {
+      "noteId": "25913305-5a82-49b3-92c4-ee487101a6ae",
+      "content": "content-25913305"
+    },
+    "notes": [
+      {
+        "noteId": "25913305-bdca-4f9d-a982-e9f7d19b31cf",
+        "id": "25913305-7bc2-44b0-bb02-be5f050fffe0",
+        "content": "content-25913305"
+      }
+    ],
+    "timePoints": {
+      "reportedOn": "2013-05-24T00:00:00.000Z",
+      "escalatedOn": "2019-08-21T00:00:00.000Z",
+      "completedOn": "2017-06-16T00:00:00.000Z",
+      "completionDueOn": "2020-12-20T00:00:00.000Z",
+      "assignedToCustomerOn": "2006-01-11T00:00:00.000Z",
+      "assignedToProcessorOn": "2021-06-03T00:00:00.000Z",
+      "initialReviewDueOn": "2011-12-24T00:00:00.000Z",
+      "initialReviewCompletedOn": "2013-08-29T00:00:00.000Z",
+      "resolutionDueOn": "2002-10-14T00:00:00.000Z",
+      "responseDueOn": "2012-02-04T00:00:00.000Z",
+      "closedOn": "2002-09-28T00:00:00.000Z"
+    },
+    "categoryLevel1": {
+      "id": "25913305-f859-40f9-9be5-1e4e880426a8",
+      "displayId": "displayId-25913305"
+    },
+    "categoryLevel2": {
+      "id": "25913305-683f-4523-9f09-fdb08e916806",
+      "displayId": "displayId-25913305"
+    },
+    "extensions": {}
+  }
+}
+
+
+### sap_c4c_api_v1_case_service_cases__put
+# @name sap_c4c_api_v1_case_service_cases__put_POST
+POST {{server}}/odata/v4/sap_c4c_api_v1_case_service_cases__put
+Content-Type: application/json
+
+{
+  "x_sap_crm_token": "x_sap_crm_token-11924823",
+  "id": "11924823-557e-43a3-8474-29161b6d7a7a",
+  "body": {
+    "subject": "subject-11924823",
+    "priority": "priority-11924823",
+    "status": "status-11924823",
+    "escalationStatus": "escalationStatus-11924823",
+    "registeredProducts": [
+      {
+        "id": "11924823-422a-48a6-9247-5dfb54d84896",
+        "displayId": "displayId-11924823",
+        "serialId": "serialId-11924823"
+      }
+    ],
+    "functionalLocations": [
+      {
+        "id": "11924823-60c0-40a3-9e92-f71c34b1aa01",
+        "displayId": "displayId-11924823"
+      }
+    ],
+    "productInstallPoints": [
+      {
+        "id": "11924823-88a9-4a8b-8963-06e7bbb2ab72",
+        "displayId": "displayId-11924823"
+      }
+    ],
+    "installedBases": [
+      {
+        "id": "11924823-5a53-4bcb-a904-7e6eb0132f46",
+        "displayId": "displayId-11924823"
+      }
+    ],
+    "account": {
+      "id": "11924823-557e-43a3-8474-29161b6d7a7a",
+      "displayId": "displayId-11924823",
+      "name": "name-11924823",
+      "country": "country-11924823",
+      "state": "state-11924823",
+      "streetPostalCode": "streetPostalCode-11924823"
+    },
+    "contact": {
+      "id": "11924823-557e-43a3-8474-29161b6d7a7a",
+      "displayId": "displayId-11924823",
+      "name": "name-11924823",
+      "emailId": "emailId-11924823",
+      "phoneNumber": "phoneNumber-11924823"
+    },
+    "individualCustomer": {
+      "id": "11924823-557e-43a3-8474-29161b6d7a7a",
+      "displayId": "displayId-11924823",
+      "name": "name-11924823",
+      "emailId": "emailId-11924823"
+    },
+    "processor": {
+      "id": "11924823-557e-43a3-8474-29161b6d7a7a",
+      "displayId": "displayId-11924823",
+      "name": "name-11924823",
+      "emailId": "emailId-11924823"
+    },
+    "approvers": [
+      {
+        "id": "11924823-2bcc-4749-b8e8-5a3798a2a3be",
+        "displayId": "displayId-11924823",
+        "name": "name-11924823",
+        "emailId": "emailId-11924823"
+      }
+    ],
+    "serviceTeam": {
+      "id": "11924823-557e-43a3-8474-29161b6d7a7a",
+      "displayId": "displayId-11924823",
+      "name": "name-11924823"
+    },
+    "description": {
+      "noteId": "11924823-9d4e-40e1-b893-61c9601f09c9",
+      "content": "content-11924823"
+    },
+    "notes": [
+      {
+        "noteId": "11924823-5e6e-4591-9251-ce6beef773c4",
+        "id": "11924823-dda2-4fcd-8ba1-4f8919a9a6cb",
+        "content": "content-11924823"
+      }
+    ],
+    "timePoints": {
+      "reportedOn": "2000-09-07T00:00:00.000Z",
+      "escalatedOn": "2013-01-29T00:00:00.000Z",
+      "completedOn": "2003-06-15T00:00:00.000Z",
+      "completionDueOn": "2010-11-08T00:00:00.000Z",
+      "assignedToCustomerOn": "2003-07-24T00:00:00.000Z",
+      "assignedToProcessorOn": "2009-12-04T00:00:00.000Z",
+      "initialReviewDueOn": "2018-05-06T00:00:00.000Z",
+      "initialReviewCompletedOn": "2019-03-20T00:00:00.000Z",
+      "resolutionDueOn": "2001-06-10T00:00:00.000Z",
+      "responseDueOn": "2014-10-13T00:00:00.000Z",
+      "closedOn": "2011-12-16T00:00:00.000Z"
+    },
+    "categoryLevel1": {
+      "id": "11924823-557e-43a3-8474-29161b6d7a7a",
+      "displayId": "displayId-11924823"
+    },
+    "categoryLevel2": {
+      "id": "11924823-557e-43a3-8474-29161b6d7a7a",
+      "displayId": "displayId-11924823"
+    },
+    "extensions": {}
+  }
+}
+
+
+### sap_c4c_api_v1_case_service_cases__patch
+# @name sap_c4c_api_v1_case_service_cases__patch_POST
+POST {{server}}/odata/v4/sap_c4c_api_v1_case_service_cases__patch
+Content-Type: application/json
+
+{
+  "x_sap_crm_token": "x_sap_crm_token-23623708",
+  "id": "23623708-d233-46da-a793-58cf33b986a7",
+  "body": {
+    "subject": "subject-23623708",
+    "priority": "priority-23623708",
+    "status": "status-23623708",
+    "escalationStatus": "escalationStatus-23623708",
+    "registeredProducts": [
+      {
+        "id": "23623708-e0f8-4a6c-af01-e371335d07fc",
+        "displayId": "displayId-23623708",
+        "serialId": "serialId-23623708"
+      }
+    ],
+    "functionalLocations": [
+      {
+        "id": "23623708-7e4a-4489-9fb2-8f5af3644a58",
+        "displayId": "displayId-23623708"
+      }
+    ],
+    "productInstallPoints": [
+      {
+        "id": "23623708-2eaa-471d-a98c-e1360fbd0056",
+        "displayId": "displayId-23623708"
+      }
+    ],
+    "installedBases": [
+      {
+        "id": "23623708-d326-401f-a215-8fdd833d3557",
+        "displayId": "displayId-23623708"
+      }
+    ],
+    "account": {
+      "id": "23623708-d233-46da-a793-58cf33b986a7",
+      "displayId": "displayId-23623708",
+      "name": "name-23623708",
+      "country": "country-23623708",
+      "state": "state-23623708",
+      "streetPostalCode": "streetPostalCode-23623708"
+    },
+    "contact": {
+      "id": "23623708-d233-46da-a793-58cf33b986a7",
+      "displayId": "displayId-23623708",
+      "name": "name-23623708",
+      "emailId": "emailId-23623708",
+      "phoneNumber": "phoneNumber-23623708"
+    },
+    "individualCustomer": {
+      "id": "23623708-d233-46da-a793-58cf33b986a7",
+      "displayId": "displayId-23623708",
+      "name": "name-23623708",
+      "emailId": "emailId-23623708"
+    },
+    "processor": {
+      "id": "23623708-d233-46da-a793-58cf33b986a7",
+      "displayId": "displayId-23623708",
+      "name": "name-23623708",
+      "emailId": "emailId-23623708"
+    },
+    "approvers": [
+      {
+        "id": "23623708-12d4-4c44-b935-397b033fd704",
+        "displayId": "displayId-23623708",
+        "name": "name-23623708",
+        "emailId": "emailId-23623708"
+      }
+    ],
+    "serviceTeam": {
+      "id": "23623708-d233-46da-a793-58cf33b986a7",
+      "displayId": "displayId-23623708",
+      "name": "name-23623708"
+    },
+    "description": {
+      "noteId": "23623708-fa48-4f32-a7c1-392560097713",
+      "content": "content-23623708"
+    },
+    "notes": [
+      {
+        "noteId": "23623708-fde0-4364-b007-ba068a707b0d",
+        "id": "23623708-3bfe-407f-8352-530d760e2568",
+        "content": "content-23623708"
+      }
+    ],
+    "timePoints": {
+      "reportedOn": "2005-01-25T00:00:00.000Z",
+      "escalatedOn": "2010-04-02T00:00:00.000Z",
+      "completedOn": "2021-01-01T00:00:00.000Z",
+      "completionDueOn": "2022-10-15T00:00:00.000Z",
+      "assignedToCustomerOn": "2010-11-03T00:00:00.000Z",
+      "assignedToProcessorOn": "2015-05-25T00:00:00.000Z",
+      "initialReviewDueOn": "2002-04-09T00:00:00.000Z",
+      "initialReviewCompletedOn": "2006-03-18T00:00:00.000Z",
+      "resolutionDueOn": "2003-11-14T00:00:00.000Z",
+      "responseDueOn": "2015-03-27T00:00:00.000Z",
+      "closedOn": "2021-01-24T00:00:00.000Z"
+    },
+    "categoryLevel1": {
+      "id": "23623708-d233-46da-a793-58cf33b986a7",
+      "displayId": "displayId-23623708"
+    },
+    "categoryLevel2": {
+      "id": "23623708-d233-46da-a793-58cf33b986a7",
+      "displayId": "displayId-23623708"
+    },
+    "extensions": {}
+  }
+}

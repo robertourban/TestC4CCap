@@ -1,0 +1,9 @@
+@server = http://localhost:4004
+
+
+### testAction
+# @name testAction_POST
+POST {{server}}/odata/v4/test/testAction
+Content-Type: application/json
+
+{}

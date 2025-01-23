@@ -1,0 +1,21 @@
+GET Case_Object.dest/sap/c4c/api/v1/case-service/cases
+
+###
+
+GET http://localhost:4004/odata/v4/test/C4CCases?$top=1&$filter=priority eq '01'
+
+###
+
+POST http://localhost:4004/odata/v4/test/getCases
+content-type: application/json
+
+{"paramsJson":"{\"$top\":10,\"$filter\":\"priority ep '01'\"}"}
+
+###
+{   
+    "paramsJson": "{\"$top\":1,\"$filter\":\"priority eq '03'\"}"
+}
+
+
+
+

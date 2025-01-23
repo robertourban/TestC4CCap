@@ -1,0 +1,116 @@
+<mvc:View controllerName="testui.controller.main"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m">
+    <Page id="page" title="{i18n>title}">
+            <HBox class="sapUiSmallMargin">
+                <Label text="date from"></Label>
+                <Input id="datefrom"></Input>
+                <Label text="date to"></Label>
+                <Input id="dateto"></Input>
+                <Button text="search" press="onSearch"></Button>
+
+            </HBox>
+            <Table id="idProductsTable"
+                inset="false"
+                growing="true"
+                growingThreshold="5"
+                items="{
+                    path: '/C4CCases',
+                    sorter: {
+                        path: 'description'
+                    }
+                }">
+                <headerToolbar>
+                    <OverflowToolbar>
+                        <content>
+                            <Title text="Table bound to odata service" level="H2"/>
+                            
+                        </content>
+                    </OverflowToolbar>
+                </headerToolbar>
+                
+                <columns>
+                    <Column
+                        >
+                        <Text text="Description" />
+                    </Column>
+                    <Column
+                        minScreenWidth="Tablet"
+                        demandPopin="true">
+                        <Text text="Priority" />
+                    </Column>
+                    <Column
+                        minScreenWidth="Desktop"
+                        demandPopin="true"
+                        hAlign="End">
+                        <Text text="Priority Description" />
+                    </Column>
+                </columns>
+                <items>
+                    <ColumnListItem vAlign="Middle">
+                        <cells>
+                            <ObjectIdentifier
+                                title="{description}"
+                                text="{id}"/>
+                            <Text
+                                text="{priority}" />
+                            <Text
+                                text="{priorityDescription}" />
+                        </cells>
+                    </ColumnListItem>
+                </items>
+            </Table>
+
+            <Table id="idProductsTable2"
+                inset="false"
+                class="sapUiSmallMarginTop"
+                growing="true"
+                growingThreshold="5"
+                items="{
+                    path: 'appModel>/cases',
+                    sorter: {
+                        path: 'description'
+                    }
+                }">
+                <headerToolbar>
+                    <OverflowToolbar>
+                        <content>
+                            <Title text="Table bound to local json model" level="H2"/>
+                            
+                        </content>
+                    </OverflowToolbar> 
+                </headerToolbar>
+                
+                <columns>
+                    <Column
+                        >
+                        <Text text="Description" />
+                    </Column>
+                    <Column
+                        minScreenWidth="Tablet"
+                        demandPopin="true">
+                        <Text text="Priority" />
+                    </Column>
+                    <Column
+                        minScreenWidth="Desktop"
+                        demandPopin="true"
+                        hAlign="End">
+                        <Text text="Priority Description" />
+                    </Column>
+                </columns>
+                <items>
+                    <ColumnListItem vAlign="Middle">
+                        <cells>
+                            <ObjectIdentifier
+                                title="{appModel>description}"
+                                text="{appModel>id}"/>
+                            <Text
+                                text="{appModel>priority}" />
+                            <Text
+                                text="{appModel>priorityDescription}" />
+                        </cells>
+                    </ColumnListItem>
+                </items>
+            </Table>
+    </Page>
+</mvc:View>
