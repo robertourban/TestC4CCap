@@ -24,7 +24,16 @@ module.exports = class TestService extends cds.ApplicationService { init() {
         id: element.id,
         priority: element.priority,
         description:element.hasOwnProperty("description")?element.description.content:'',
-        priorityDescription: element.priorityDescription
+        priorityDescription: element.priorityDescription,
+        adminData:{
+          createdBy :  element.adminData.createdBy,
+          createdByName :  element.adminData.createdByName,
+          createdOn :  element.adminData.createdOn,
+          updatedBy :  element.adminData.updatedBy,
+          updatedByName :  element.adminData.updatedByName,
+          updatedOn :  element.adminData.updatedOn,
+
+        }
         //... continue to map all necessary fields
       })
       
@@ -50,7 +59,16 @@ module.exports = class TestService extends cds.ApplicationService { init() {
         id: element.id,
         priority: element.priority,
         description:element.hasOwnProperty("description")?element.description.content:'',
-        priorityDescription: element.priorityDescription
+        priorityDescription: element.priorityDescription,
+        adminData:{
+          createdBy :  element.adminData.createdBy,
+          createdByName :  element.adminData.createdByName,
+          createdOn :  element.adminData.createdOn,
+          updatedBy :  element.adminData.updatedBy,
+          updatedByName :  element.adminData.updatedByName,
+          updatedOn :  element.adminData.updatedOn,
+
+        }
         //... continue to map all necessary fields
       })
       

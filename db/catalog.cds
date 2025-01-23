@@ -19,6 +19,14 @@ entity C4CCase {
         status              : String;
         statusDescription   : String;
         escalationStatus    : String;
-        isRead: Boolean;
-        isEndOfPurpose: Boolean;
+        isRead              : Boolean;
+        isEndOfPurpose      : Boolean;
+        adminData           : Composition of one {
+                                    createdBy      : String;
+                                    createdByName  : String;
+                                    createdOn : DateTime;
+                                    updatedBy      : String;
+                                    updatedByName  : String;
+                                    updatedOn : DateTime;
+                              }
 }

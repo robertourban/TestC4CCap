@@ -1,3 +1,5 @@
 {
-    "cases":[]
+    "cases":[],
+    "searchToDate": null,
+    "searchFromDate": null
 }
